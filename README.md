@@ -13,7 +13,7 @@ A robust, scalable REST API built with Node.js and Express.js that powers a comm
 ## 🚀 Live Demo
 
 - **API Base URL**: [https://ii-practicum-team-1-back.onrender.com](https://ii-practicum-team-1-back.onrender.com)
-- **Frontend Application**: Connected React.js interface for seamless user experience
+- **Frontend Application**: https://ii-practicum-team-1-front.onrender.com
 
 ## ✨ Key Features
 
