@@ -9,9 +9,12 @@
     "test": "cross-env NODE_ENV=test jest",
     "db:migrate": "npx sequelize-cli db:migrate",
     "db:seed": "node src/scripts/createCategories.js",
-    "db:setup": "npm run db:migrate && npm run db:seed",
+    "db:demo": "node scripts/create-demo-data.js",
+    "db:sync": "node scripts/sync-db.js",
+    "db:setup": "npm run db:sync && npm run db:seed",
+    "db:full-setup": "npm run db:sync && npm run db:seed && npm run db:demo",
     "db:reset": "node scripts/setup-db.js",
-    "build": "npm run db:setup"
+    "build": "npm run db:full-setup"
   },
   "author": "",
   "license": "ISC",
