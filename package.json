@@ -6,7 +6,12 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon src/server.js",
     "start": "cross-env NODE_ENV=production node src/server.js",
-    "test": "cross-env NODE_ENV=test jest"
+    "test": "cross-env NODE_ENV=test jest",
+    "db:migrate": "npx sequelize-cli db:migrate",
+    "db:seed": "node src/scripts/createCategories.js",
+    "db:setup": "npm run db:migrate && npm run db:seed",
+    "db:reset": "node scripts/setup-db.js",
+    "build": "npm run db:setup"
   },
   "author": "",
   "license": "ISC",
