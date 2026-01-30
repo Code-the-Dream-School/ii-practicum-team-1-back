@@ -12,9 +12,8 @@ A robust, scalable REST API built with Node.js and Express.js that powers a comm
 
 ## 🚀 Live Demo
 
-- **API Base URL**: [https://ii-practicum-team-1-back.onrender.com](https://ii-practicum-team-1-back.onrender.com)
-- **Frontend Application**: https://ii-practicum-team-1-front.onrender.com
-
+- **Frontend Application**: https://kindnet.onrender.com/
+  
 ## ✨ Key Features
 
 ### 🔐 **Advanced Authentication & Security**
